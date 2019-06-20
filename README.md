@@ -6,3 +6,5 @@
 ## join
 * `join file1 file2`
 * **file1 and file2 must be sorted on the join fields**
+* **left join**: `join -a1 file1 file2`
+* **right join**: `join -a2 file1 file2`
